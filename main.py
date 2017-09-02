@@ -25,12 +25,14 @@ class HashResult(tk.Frame):
 class App(tk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
-        parent.title("HashToolBox v1.1")
+        parent.title("HashToolBox v1.2")
 
         self.hash_functions = (
             "MD5",
+            "SHA",
             "SHA1",
-            "SHA256"
+            "SHA256",
+            "SHA512"
             )
 
         self.file_selector = FileSelector(self)
