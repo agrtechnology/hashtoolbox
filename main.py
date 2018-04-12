@@ -28,10 +28,13 @@ class App(tk.Frame):
         parent.title("HashToolBox v1.2")
 
         self.hash_functions = (
+            "MD4",
             "MD5",
             "SHA",
             "SHA1",
+            "SHA224",
             "SHA256",
+            "SHA384",
             "SHA512"
             )
 
