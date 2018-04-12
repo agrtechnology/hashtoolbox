@@ -15,3 +15,8 @@ Supported hashing types:
 Requirements:
 
 - Python 3 or higher is required to run this program, download it here: https://www.python.org/ 
+
+Future releases:
+
+- Standalone executable
+- Windows context menu integration
